@@ -1,0 +1,57 @@
+#header {
+    background-color: rgba(189, 100, 155, 0.986); 
+    color: rgb(2, 0, 0)
+    text-align: left;
+    padding: 10px;
+   }
+   #menu{
+    background-color:lightpink;
+    height: 250px;
+    width: 200px;
+    float:left;
+    padding:10px 0 0 10px;
+   }
+   
+   #inhoud {
+    width: 50%;
+    float:left;
+    padding: 10px 0 0 15px;
+   }
+   #footer {
+   background-color:black;
+   height: 100px;
+   width: 100px;
+   padding:  10px;
+   }
+
+ 
+   #menu
+   {
+     list-style-type: none;     
+     margin: 0;                 
+     padding: 0;                
+   }
+   #menu a
+   {
+     color: white;            
+     text-decoration: none;     
+     background-color:powderblue (189, 100, 155, 0.986); 
+     font-family: Arial;        
+     width: 115px;              
+     padding: 2px 4px;          
+     margin-bottom: 1px;        
+     display: block;            
+   }
+   #menu a:hover
+   {
+     background-color:rgba(120, 169, 202, 0.986);  
+   }
+body 
+{background-color: plum;} 
+
+ul.taart
+{
+  Margin: 20px 500px 20px 700px;   
+}
+
+  
