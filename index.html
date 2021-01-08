@@ -1,0 +1,91 @@
+<!DOCTYPE html><html lang="nl">
+  <head>
+    <title>POHTML</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="js/Homepagina.js"></script>
+    <style>
+        .p1 {
+         font-family: "Times New Roman", Times, serif;
+       } 
+ 
+<style>
+    .p1 {
+      font-family: "arial";
+    }
+    
+    .p2 {
+    
+</style> 
+</head>
+<body> 
+    <div id="header"><h3>TopTaarten</h3></div>
+    <div id="menu">
+        <p>       
+     <ul>
+           <li> <a href="pagina1.html">Chocolade taart</a> </li>
+        </p>
+        <p>
+           <li> <a href="pagina2.html">Gezonde taart</a> </li>
+        </p>
+    </ul>
+    </div>
+    <div id="inhoud"> 
+      <h1> Welkom op mijn website!</h1>
+    <table border ="1">
+      <tr>
+        <th> Naam </th>
+        <th> leeftijd </th>
+        <th> Hobby's </th>
+        <th> School mail adres </th>
+      </tr>
+
+      <td> Finette Mandemaker </td>
+      <td> 16 jaar </td>
+      <td> Hockeyen, Harry potter lezen/Harry Potter films kijken en bakken</td>
+      <td> pon118613@pontes.nl </td>
+      <table border "1">
+    <div id="#footer"></div>
+    </div>
+    <p>
+ Hoi! Mijn naam is Finette Mandemaker en ik hou ontzettend veel van bakken in mijn vrije tijd. Op verjaardagen en feestjes bak ik de leukste taarten. In de tabel hierboven kan je mijn persoonlijke gegevens zien. Op deze website laat ik je zien hoe je een lekkere chocolade taart maakt en een gezonde worteltaart! Kijk maar rond! Veel plezier met bakken!
+ <p> Zoals je in de tabel kan zien hou ik ontzettend veel van Harry Potter boeken lezen en de films kijken. In de audio hiernaast kan je de prologue horen van Harry Potter. Bijna iedereen zal het nummer kennen denk ik! </p>
+ 
+<audio controls src= audio/Prologue.mp3 ></audio> 
+ <canvas id="canvas" width="1000px" height="90px"></canvas> 
+        <script>
+            var start = 0;
+            var end = 100;
+            while (end < 1442)
+            {
+                var c = document.getElementById("canvas");
+                var ctx = c.getContext("2d");
+                ctx.moveTo(start,38);
+                ctx.lineTo(end,52);
+                ctx.stroke();
+                if (start < end)
+                {
+                    start = start + 200
+                }
+                else
+                {
+                    end = end + 200
+                }
+            }
+        </script>
+
+ <form name="form">
+            <fieldset>
+                  <legend>Een formulier met JavaScript</legend>
+                  Vul je voornaam in:<br><br>
+                  <input type = "text" size= "25" name = "name"><br>
+                  <input type="button" value="Geen interesse" onClick="geeninteresse()">
+                  <input type = "button" value = "OK" onClick = "showname()">
+            </fieldset>
+        </form> 
+        <p id="viewname"></p> 
+        <footer>
+<p>Copyright &copy; <script>document.write(new date() getfullyear());</script> coding Journey</p> 
+ </footer>
+</body>
+</html>  
